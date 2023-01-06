@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.base",
+  "compilerOptions": {
+    "removeComments": true,
+    // outFile looks at all the file that needs to be compiled and directs all file into one file.
+    "outFile": "../js/app.js"
+  },
+  "files": [
+    "./app.ts"
+  ]
+}
